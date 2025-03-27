@@ -1,0 +1,40 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.full-width-table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.search-field {
+  width: 60%;
+  border-radius: 50px !important;
+  background-color: white;
+}
+
+.search-field .mat-form-field-wrapper {
+  border-radius: 50px !important;
+  padding: 8px;
+}
+
+.search-field .mat-form-field-flex {
+  border-radius: 50px !important;
+  padding-left: 16px;
+}
+
+.search-field input {
+  border-radius: 50px !important;
+}
